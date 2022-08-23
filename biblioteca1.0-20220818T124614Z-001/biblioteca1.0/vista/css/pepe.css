@@ -1,0 +1,235 @@
+        body {
+            background-color: rgb(240, 225, 225);
+        }
+        
+        #contenedor {
+            font-family: 'Lucida Sans Unicode', Sans-serif;
+            font-size: 1em;
+            background-color: #ffff;
+            border: #d3d3d3 1px solid;
+            text-align: justify;
+            margin: 10px auto;
+            width: 900px;
+        }
+        
+        #encabezado {
+            width: 900px;
+            height: 341px;
+            border: #d3d3d3 1px solid;
+            background-image: url("../img/banner.jpg");
+            background-size: cover;
+            position: relative;
+        }
+        
+        h1 {
+            width: 50%;
+            text-align: center;
+            margin-top: 40px;
+            margin-left: 20px;
+            color: rgb(187, 127, 127);
+        }
+        
+        div #contenido {
+            border: #fff 1px solid;
+            margin: 20px 20px 10px 145px;
+            padding: 10px 15px;
+        }
+        /*aqui empieza el nav*/
+        
+        ul {
+            list-style: none;
+        }
+        
+        .nav {
+            text-align: center;
+            margin: 341px -40px 0;
+        }
+        
+        .nav li a {
+            background-color: rgb(162, 104, 196);
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 30px 10px;
+            display: block;
+            width: 90px;
+        }
+        
+        .nav li a:hover {
+            background-color: #434343;
+            text-decoration: underline;
+        }
+        
+        .nav>li {
+            float: left;
+        }
+        
+        .nav li ul {
+            display: none;
+            position: absolute;
+            min-width: 150px;
+        }
+        
+        .nav li:hover>ul {
+            display: block;
+        }
+        /*aqui termina*/
+        
+        h2 {
+            color: #191f25;
+            border-bottom: #CFDFB5 1px solid;
+            font-size: 20px;
+        }
+        
+        #menu {
+            float: left;
+            width: 120px;
+            margin: 20px 10px;
+            padding: 0;
+            list-style: none;
+        }
+        
+        #menu li {
+            border: #fff 1px solid;
+            background-color: #6830ec;
+            margin-bottom: 5px;
+            font-size: 0.9em;
+            text-align: center;
+            line-height: 30px;
+        }
+        
+        #menu li:hover {
+            background-color: #d86ce9f5;
+        }
+        
+        #menu a {
+            display: block;
+            text-decoration: none;
+            color: #ffffff;
+        }
+        /* Aqui empieza el css de libreria */
+        
+        .formlib1 {
+            width: 400px;
+            height: 200px;
+            padding: 10px 30px 10px;
+            border-radius: 20px 20px;
+            margin: 27px 29px -50px;
+        }
+        
+        .imglib {
+            width: 450px;
+            height: 350px;
+            margin: -200px 491px 11px;
+        }
+        /* 
+CONSULTAR LIBRO */
+        
+        .imglibcon {
+            width: 354px;
+            height: 302px;
+            margin: -156px 553px -30px;
+        }
+        
+        .button {
+            background-color: #ff0081;
+            box-shadow: 0 2px 25px rgba(255, 0, 130, 0.5);
+            border-radius: 4px;
+            border: none;
+            color: #fff;
+            font-size: 1em;
+            padding: 1px 2px;
+            cursor: pointer;
+        }
+        /* ///BOTON///// */
+        
+        .bubbly-button {
+            font-family: "Helvetica", "Arial", sans-serif;
+            display: inline-block;
+            font-size: 1em;
+            padding: 1em 2em;
+            margin-top: 100px;
+            margin-bottom: 60px;
+            -webkit-appearance: none;
+            appearance: none;
+            background-color: #ff0081;
+            color: #fff;
+            border-radius: 4px;
+            border: none;
+            cursor: pointer;
+            position: relative;
+            transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+            box-shadow: 0 2px 25px rgba(255, 0, 130, 0.5);
+        }
+        
+        .bubbly-button:focus {
+            outline: 0;
+        }
+        
+        .bubbly-button:before,
+        .bubbly-button:after {
+            position: absolute;
+            content: "";
+            display: block;
+            width: 140%;
+            height: 100%;
+            left: -20%;
+            z-index: -1000;
+            transition: all ease-in-out 0.5s;
+            background-repeat: no-repeat;
+        }
+        
+        .bubbly-button:before {
+            display: none;
+            top: -75%;
+            background-image: radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, transparent 20%, #ff0081 20%, transparent 30%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, transparent 10%, #ff0081 15%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%);
+            background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
+        }
+        
+        .bubbly-button:after {
+            display: none;
+            bottom: -75%;
+            background-image: radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, transparent 10%, #ff0081 15%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%);
+            background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 10% 10%, 20% 20%;
+        }
+        
+        .bubbly-button:active {
+            transform: scale(0.9);
+            background-color: #e60074;
+            box-shadow: 0 2px 25px rgba(255, 0, 130, 0.2);
+        }
+        
+        .bubbly-button.animate:before {
+            display: block;
+            animation: topBubbles ease-in-out 0.75s forwards;
+        }
+        
+        .bubbly-button.animate:after {
+            display: block;
+            animation: bottomBubbles ease-in-out 0.75s forwards;
+        }
+        
+        @keyframes topBubbles {
+            0% {
+                background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%, 40% 90%, 55% 90%, 70% 90%;
+            }
+            50% {
+                background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%, 50% 50%, 65% 20%, 90% 30%;
+            }
+            100% {
+                background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%, 50% 40%, 65% 10%, 90% 20%;
+                background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+            }
+        }
+        
+        @keyframes bottomBubbles {
+            0% {
+                background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%, 70% -10%, 70% 0%;
+            }
+            50% {
+                background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%, 105% 0%;
+            }
+            100% {
+                background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%, 110% 10%;
+                background-size: 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%, 0% 0%;
+            }
+        }

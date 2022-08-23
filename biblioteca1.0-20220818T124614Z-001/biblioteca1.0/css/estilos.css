@@ -1,0 +1,329 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+body {
+    background-color: rgb(240, 225, 225);
+}
+#contenedor{
+    font-family: 'Lucida Sans Unicode', Sans-serif;
+    font-size: 1em;
+    background-color:  rgb(237, 233, 227);
+    border: #d3d3d3 1px solid;
+    text-align: justify;
+    margin: 10px auto;
+    width: 944px;   
+}
+
+.contenedor {
+    font-family: 'Lucida Sans Unicode', Sans-serif;
+    font-size: 1em;
+    background-color: #ffff;
+    border: #d3d3d3 1px solid;
+    text-align: justify;
+    margin: 10px auto;
+    width: 944px;
+}
+
+.encabezado {
+    width: 900px;
+    height: 341px;
+    border: #d3d3d3 1px solid;
+    background-size: cover;
+    position: relative;
+}
+.main{
+    background-color:  rgb(237, 233, 227);
+    width: 900px;
+    margin: 20px 31px 10px;
+    margin-top: 400px;
+}
+
+.ingresararea{        
+        text-align: center;
+        background-color: rgb(237, 233, 227);
+        border-radius: 20px 20px 20px;
+        box-shadow: 5px 5px 15px;
+        width: 400px;
+        height: 350px;
+        margin-top:-300px; 
+        margin-left: 210px;
+}
+.consultararea{
+      text-align: center;
+        background-color: rgb(237, 233, 227);
+        border-radius: 20px 20px 20px;
+        box-shadow: 5px 5px 15px;
+        width: 400px;
+        height: 300px;
+        margin-top:-310px; 
+        margin-left: 250px;
+}
+
+.ingresarlibro{
+    text-align: center;
+    background-color:  rgb(237, 233, 227);
+    border-radius: 20px 20px 20px;
+    box-shadow: 5px 5px 15px;
+    width: 400px;
+    height: 400px;
+    margin-top:-310px; 
+    margin-left: 250px;
+}
+.consultarlibro{
+    text-align: center;
+    background-color:  rgb(237, 233, 227);
+    border-radius: 20px 20px 20px;
+    box-shadow: 5px 5px 15px;
+    width: 400px;
+    height: 200px;
+    margin-top:-310px; 
+    margin-left: 250px;
+
+}
+.realizarprestamo{
+    text-align: center;
+    background-color:  rgb(237, 233, 227);
+    border-radius: 3px 3px 3px;
+    box-shadow: 5px 5px 20px;
+    width: 400px;
+    height:350px;
+    margin-top:-310px; 
+    margin-left: 250px;
+}
+.realizarprestamoparte2{
+    text-align: center;
+    background-color:  rgb(237, 233, 227);
+    border-radius: 3px 3px 3px;
+    box-shadow: 6px 10px 20px;
+    width: 400px;
+    height: 230px;
+    margin-top:-310px; 
+    margin-left: 250px;
+}
+.realizardevolucion{
+    text-align: center;
+    background-color:  rgb(237, 233, 227);
+    border-radius: 20px 20px 20px;
+    box-shadow: 5px 5px 15px;
+    width: 400px;
+    height: 300px;
+    margin-top:-310px; 
+    margin-left: 250px;
+}
+
+.ingresarusuario{
+    text-align: center;
+    background-color:  rgb(237, 233, 227);
+    border-radius: 20px 20px 20px;
+    box-shadow: 5px 5px 15px;
+    width: 450px;
+    height: 550px;
+    margin-top:-310px; 
+    margin-left: 250px;
+}
+.consultarusuario{
+    text-align: center;
+    background-color:  rgb(237, 233, 227);
+    border-radius: 20px 20px 20px;
+    box-shadow: 5px 5px 15px;
+    width: 350px;
+    height: 250px;
+    margin-top:-310px; 
+    margin-left: 250px;
+}
+.modificararea{
+    text-align: center;
+    background-color:  rgb(237, 233, 227);
+    border-radius: 20px 20px 20px;
+    box-shadow: 5px 5px 15px;
+    width: 350px;
+    height: 250px;
+    margin-top:-310px; 
+    margin-left: 270px;
+}
+
+/* 
+.menu {
+    float: left;
+    width: 120px;
+    margin: 20px 31px 10px;
+    padding: 0;
+    list-style: none;
+    display: block;
+
+}
+.menu li {
+     background-color: rgb(162, 104, 196);
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 30px 10px;
+            display: block;
+            width: 90px;
+}
+.menu li:hover {
+   background-color: #434343;
+            text-decoration: underline;}
+
+.menu a {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+
+
+.submenu {
+    position: absolute;
+    width: 100%;
+    visibility: hidden;
+    
+}
+.submenu a {
+    display: block;
+    color: #ffff;
+    font-size: 20px;
+}
+.menu li:hover .submenu {
+    visibility: visible;
+    width: 100%;
+} */
+
+ul {
+    list-style: none;
+}
+
+.nav {
+    text-align: center;
+    margin: 20px 1px 3px;
+    width:1370px;
+}
+
+.nav li a {
+    background-color: rgb(162, 104, 196);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 3px 20px;
+    display: block;
+    width: 157px;
+
+
+}
+
+.nav li a:hover {
+    background-color: #434343;
+    text-decoration: underline;
+}
+
+.nav>li {
+    float: left;
+}
+
+.nav li ul {
+    display: none;
+    position: absolute;
+    min-width: 150px;
+}
+
+.nav li:hover>ul {
+    display: block;
+}
+.contenido{
+    display: flex;
+    flex-direction: row;
+}
+.subtituloh3 {
+    color: #000;
+    width: 100%;
+    margin: 6rem 4rem 1rem 0rem;
+    text-align: center;
+    
+}
+
+.login{
+width: 500;
+margin: 20px 2px 1px;
+background-color: #515152;
+}
+
+.contenido article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 33%;
+    padding: 14px;
+    font-size: 18px;
+}
+
+/* Area */
+h1 {
+    width: 30%;
+    text-align: center;
+    margin-top: 10px;
+    margin-left: -100px;
+    color: rgb(187, 127, 127);
+    font-size:30px;
+}
+.h1j{
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
+    margin-left: -100px;
+    color: rgb(187, 127, 127);
+    font-size:30px; 
+    margin: 115px -5px -40px;
+
+}
+.area{
+    width: 400px;
+    font-size: 20px;
+    text-align: left;
+    margin: 82px 0px 16px;
+    padding: 10px 30px 10px;
+    border-radius: 20px 20px;
+}
+
+
+.new {
+    width: 50%;
+    background: #fff;
+    border: 1px solid #515152;
+    border-radius: 3px;
+    font-size: 16px;    
+}
+
+.boton {
+    width: 40%;
+    background:rgb(162, 104, 196);;
+    margin: 28px 9px;
+    padding: 12px;
+    color: #ffff;
+    border: 2px solid #808080;
+    border-radius: 3px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+
+.boton:hover {
+    color: #ffff;
+    background-color: #434343;
+}
+
+/* Table */
+table {
+    margin: 0 auto;
+    width: 70%;
+    border: solid 1px black;
+    margin-bottom: 10px;
+    margin-left:150px;
+}
+
+
+th, td {
+    margin: 20px;
+    text-align: center;
+    border: solid 1px black;
+}

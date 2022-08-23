@@ -1,0 +1,21 @@
+[
+	{ "s": "REALIZA", "p": [7] },
+	{ "s": "REALIZACIÓN", "p": [7] },
+	{ "s": "REALIZADO", "p": [22] },
+	{ "s": "REALIZAN", "p": [19, 6] },
+	{ "s": "REALIZAR", "p": [21, 19, 20, 8, 11, 4] },
+	{ "s": "REALIZO", "p": [21] },
+	{ "s": "RECALCAR", "p": [20] },
+	{ "s": "REDIRECCIONARÁ", "p": [17, 9] },
+	{ "s": "REGISTRADO", "p": [20, 13, 15, 12] },
+	{ "s": "REGISTRADOS", "p": [23] },
+	{ "s": "REGISTRAMOS", "p": [10, 9, 25, 24, 15] },
+	{ "s": "REGISTRAR", "p": [7, 23, 20, 13, 9, 8] },
+	{ "s": "REGISTRARNOS", "p": [20] },
+	{ "s": "REGISTRO", "p": [9] },
+	{ "s": "REGISTROS", "p": [8] },
+	{ "s": "RELACIONADO", "p": [18] },
+	{ "s": "RELIZAR", "p": [21] },
+	{ "s": "REQUIEREN", "p": [21] },
+	{ "s": "RESPECTIVOS", "p": [10] }
+]
